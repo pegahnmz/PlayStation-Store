@@ -77,7 +77,10 @@ input{
     border: none;
     outline: none;
 }
+main{
+    margin-top: 7rem;
 
+}
 /* headder---- */
 .header__container{
     display: flex;
@@ -85,12 +88,30 @@ input{
     align-items: center;
     padding: 1rem 1rem;
     box-shadow:10px 10px 20px 0px  rgba(0, 0, 0, 0.099);
+
+    position: fixed;
+    background-color: white;
+    top: 0rem;
+    z-index: 100;
+    width: 100%;
+    
+
 }
 
 .menu__list{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
+}
+.menu__item{
+    transition: all 0.3s ease-in-out;
+    padding: 0.3rem 1rem;
+    border-radius: 1rem;
+}
+.menu__item:hover{
+    background-color: rgba(186, 186, 186, 0.196);
+    padding: 0.3rem 1rem;
+    border-radius: 1rem;
 }
 .header__logo > img{
     height: 2.5rem;
@@ -103,6 +124,11 @@ input{
 }
 .btn-icon{
     font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+.btn-icon:hover{
+    
+    transform: scale(1.2);
 }
 .ms{
     margin: 5rem 4rem;
