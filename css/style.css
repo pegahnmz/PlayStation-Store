@@ -571,4 +571,29 @@ width: 100%;
     margin-top: 6px;
 }
 
- 
+
+
+/*monthly pick*/
+.monthly-pick{
+    margin-top: 10rem;
+}
+.monthly-pick-header>img{
+    position: absolute;
+    width: 100%;
+    
+    
+}
+.monthly-pick-header{
+    overflow: hidden;
+    height: 25rem;
+    position: relative;
+}
+
+ .colplus::after{
+    margin-bottom: 3rem !important;
+ }
+
+ .box-table-title{
+    margin-bottom: 2rem;
+    text-align: center;
+ }
