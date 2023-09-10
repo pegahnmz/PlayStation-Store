@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Assets/logo.webp" type="image/icon" >
+    <title>PlayStation Store</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+   
+</head>
+<body>
+    <header>
+        <div class="header__container">
+            <a href="./index.html" class="header__logo">
+                <img src="./Assets/header_logo.webp" alt="logo" >
+            </a>
+            <ul class="menu__list">
+                <li class="menu__item ">
+                    <a href="./index.html" class="nav__link txt-md-bold"> Latest</a>
+                </li>
+
+                <li class="menu__item">
+                    <a href="./collections.html" class="nav__link">Collections</a>
+                </li>
+
+                <li class="menu__item">
+                    <a href="./deals.html" class="nav__link">Deals</a>
+                </li>
+                <li class="menu__item">
+                    <a href="./ps5.html" class="nav__link">PS5</a>
+                </li>
+                <li class="menu__item">
+                    <a href="./subscriptions.html" class="nav__link">Subscriptions</a>
+                </li>
+
+            </ul>
+
+            <div class="header__btn__grp">
+                <button class="btn-icon">
+                    <i class="fa fa-search"></i>
+                </button >
+                <button class="btn-icon">
+                    <i class="fa fa-heart"></i>
+                </button>
+                <button class="btn-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+                <button class="btn-icon">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div id="loader">
+            <span></span>
+        </div>
+
+        <section class="s">
+            <div class="playstation-plus">
+                <div class="ps-plus-header">
+                    <div class="ps-plus-main">
+                        <img src="./Assets/playstation plus/993e7f72-df2d-4b3a-93e7-6724dafeae18.webp" alt="">
+                    </div>
+                    
+                    <img src="./Assets/playstation plus/75fa7eb7-1fdc-4c8d-94fe-09702ab6218f.png" alt="">
+                    <img src="./Assets/playstation plus/b9bb4035-9a2d-4b96-b51f-59bc6c077bb0.png" alt="">
+                </div>
+                <div class="box-footer">
+                    <div class="box-footer-top">
+                        <p class="txt-title">Discover PlayStation Plus</p>
+                        <button class="primary-btn">Learn More</button>
+                    </div>
+                    <p class="txt-sub">Enjoy hundreds of PS5, PS4 and classic PlayStation games, online multiplayer, and more unmissable benefits.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="s">
+            <div class="monthly-pick">
+                <div class="monthly-pick-header">  
+                    <img src="./Assets/banner/Screenshot (3).png" alt="">
+                </div>
+                <div class="box-footer">
+                    <div class="box-footer-top">
+                        <p class="txt-title">EA Play</p>
+                        <button class="primary-btn">Learn More</button>
+                    </div>
+                    <p class="txt-sub">Get access to a vault of games, play exclusive 10 hr trials, and get 10% off on EA digital purchases</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="ms">
+            <div class="game-menu">
+                <div class="game-menu-header txt-title">
+                    <p>EA PLay PLayList</p> 
+                    <button class="extend-btn">View All</button>       
+                </div>
+
+                <div class="swiper swiper1" id="swiper1">
+                    <div class="swiper-wrapper">
+    
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                                <div class="box-img">
+                                    <img class="box-img-img" src="./Assets/pre-order/1.jpg" alt="">
+                                    <div class="tags">
+                                        <p>PS4</p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                     
+                                    <p class="txt-item">EA SPORTS™ FIFA 23 PS4™</p>
+                                    <p class="txt-cost">$59.99</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                                <div class="box-img">
+                                    <img class="box-img-img" src="./Assets/pre-order/2.jpg" alt="">
+                                    <div class="tags">
+                                        <p>PS5</p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                   
+                                    <p class="txt-item">EA SPORTS™ FIFA 23 PS5™</p>
+                                    <p class="txt-cost">$79.99</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                                <div class="box-img">
+                                    <img class="box-img-img" src="./Assets/pre-order/3.jpg" alt="">
+                                    <div class="tags">
+                                        <p>PS5</p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                    
+                                    <p class="txt-item">FIFA 22 PS5™</p>
+                                    <p class="txt-cost">Unavailable</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                                <div class="box-img">
+                                    <img class="box-img-img" src="./Assets/pre-order/4.jpg" alt="">
+                                    <div class="tags">
+                                        
+                                        <P>PS4</P>
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                    
+                                    <p class="txt-item">NHL® 23 PS4™</p>
+                                    <p class="txt-cost">$59.99</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                                <div class="box-img">
+                                    <img class="box-img-img" src="./Assets/pre-order/5.png" alt="">
+                                    <div class="tags">
+                                        <p>PS5</p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                    
+                                    <p class="txt-item">NHL® 23 PS5™</p>
+                                    <p class="txt-cost">$69.99</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                                <div class="box-img">
+                                    <img class="box-img-img" src="./Assets/pre-order/6.png" alt="">
+                                    <div class="tags">
+                                        <p>PS5</p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                    
+                                    <p class="txt-item">F1® 22 PS5™</p>
+                                    <p class="txt-cost">$69.99</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                                <div class="box-img">
+                                    <img class="box-img-img" src="./Assets/pre-order/7.jpg" alt="">
+                                    <div class="tags">
+                                       
+                                        <P>PS4</P>
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                     
+                                    <p class="txt-item">Madden NFL 23 PS4™</p>
+                                    <p class="txt-cost">59.99</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                                <div class="box-img">
+                                    <img class="box-img-img" src="./Assets/pre-order/8.jpg" alt="">
+                                    <div class="tags">
+                                        <p>PS5</p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                   
+                                    <p class="txt-item">Madden NFL 23 PS5™</p>
+                                    <p class="txt-cost">$69.99</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                                <div class="box-img">
+                                    <img class="box-img-img" src="./Assets/pre-order/9.jpg" alt="">
+                                    <div class="tags">
+                                        <p>PS5</p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                     
+                                    <p class="txt-item">Need for Speed™ Unbound</p>
+                                    <p class="txt-cost">$69.99</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                                <div class="box-img">
+                                    <img class="box-img-img" src="./Assets/pre-order/10.jpg" alt="">
+                                    <div class="tags">
+                                         
+                                        <P>PS4</P>
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                    
+                                    <p class="txt-item">Battlefield™ 2042 PS4™</p>
+                                    <p class="txt-bottom-deal txt-md-bold">-33%</p>
+                                    <p class="txt-cost">$49.99  <span class="txt-cost-line">$59.99</span></p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+    
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                                <div class="box-img">
+                                    <img class="box-img-img" src="./Assets/pre-order/10.jpg" alt="">
+                                    <div class="tags">
+                                         <p>PS5</p>
+                                        <P>PS4</P>
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                    
+                                    <p class="txt-item">Battlefield™ 2042 PS5™</p>
+                                    <p class="txt-bottom-deal txt-md-bold">-33%</p>
+                                    <p class="txt-cost">$49.99  <span class="txt-cost-line">$59.99</span></p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                               <div class="view-all-box txt-item">View All</div>
+                            </div>
+                        </div>
+        
+    
+                    </div>
+                    <div class="swiper-cus">
+                        <div class="swiper-button-prev swiper1-button-prev colplus" ></div>
+                      <div class="swiper-button-next swiper1-button-next colplus" ></div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </section>
+
+        <section class="ms">
+            <div class="game-menu">
+                <div class="game-menu-header txt-title">
+                    <p>EA Play Early Access Trials</p> 
+                    <button class="extend-btn">View All</button>       
+                </div>
+
+                <div class="swiper swiper1" id="swiper1">
+                    <div class="swiper-wrapper">
+    
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                                <div class="box-img">
+                                    <img class="box-img-img" src="./Assets/pre-order/1.jpg" alt="">
+                                    <div class="tags">
+                                        <p>PS5</p>
+                                        <p>PS4</p>
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                     
+                                    <p class="txt-item">Madden NFL 24</p>
+                                    <p class="txt-cost">$69.99</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                                <div class="box-img">
+                                    <img class="box-img-img" src="./Assets/pre-order/2.jpg" alt="">
+                                    <div class="tags">
+                                        <p>PS5</p>
+                                        <p>PS4</p>
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                    <p class="txt-bold-sub">PREMIUM EDITION</p>
+                                    <p class="txt-item">F1® 23 Champions Edition</p>
+                                    <p class="txt-cost">$79.99</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                                <div class="box-img">
+                                    <img class="box-img-img" src="./Assets/pre-order/3.jpg" alt="">
+                                    <div class="tags">
+                                        <p>PS5</p>
+                                        <p>PS4</p>
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                     
+                                    <p class="txt-item">F1® 23</p>
+                                    <p class="txt-cost">$99.99</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                                <div class="box-img">
+                                    <img class="box-img-img" src="./Assets/pre-order/4.jpg" alt="">
+                                    <div class="tags">
+                                        <p>PS5</p>
+                                        <P>PS4</P>
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                     
+                                    <p class="txt-item">Super Mega Baseball™ 4</p>
+                                    <p class="txt-cost">$99.99</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                                <div class="box-img">
+                                    <img class="box-img-img" src="./Assets/pre-order/5.png" alt="">
+                                    <div class="tags">
+                                        <p>PS5</p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                    
+                                    <p class="txt-item">EA SPORTS™ PGA TOUR™</p>
+                                    <p class="txt-cost">$69.99</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                                <div class="box-img">
+                                    <img class="box-img-img" src="./Assets/pre-order/6.png" alt="">
+                                    <div class="tags">
+                                        <p>PS5</p>
+                                         
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                    <p class="txt-bold-sub">GAME BUNDLE</p>
+                                    <p class="txt-item">WILD HEARTS™ Karakuri Edition</p>
+                                    <p class="txt-cost">$99.99</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                                <div class="box-img">
+                                    <img class="box-img-img" src="./Assets/pre-order/7.jpg" alt="">
+                                    <div class="tags">
+                                         
+                                        <P>PS4</P>
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                    
+                                    <p class="txt-item">NHL® 23 PS4™</p>
+                                    <p class="txt-cost">$99.99</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                                <div class="box-img">
+                                    <img class="box-img-img" src="./Assets/pre-order/8.jpg" alt="">
+                                    <div class="tags">
+                                        <p>PS5</p>
+                                         
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                     
+                                    <p class="txt-item">NHL® 23 PS5™</p>
+                                    <p class="txt-cost">$99.99</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                                <div class="box-img">
+                                    <img class="box-img-img" src="./Assets/pre-order/9.jpg" alt="">
+                                    <div class="tags">
+                                        <p>PS4</p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                    
+                                    <p class="txt-item">EA SPORTS™ FIFA 23 PS4™</p>
+                                    <p class="txt-cost">$69.99</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                                <div class="box-img">
+                                    <img class="box-img-img" src="./Assets/pre-order/10.jpg" alt="">
+                                    <div class="tags">
+                                        <p>PS5</p>
+                                         
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                     
+                                    <p class="txt-item">EA SPORTS™ FIFA 23 PS5™</p>
+                                    <p class="txt-cost">$69.99</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                                <div class="box-img">
+                                    <img class="box-img-img" src="./Assets/pre-order/11.jpg" alt="">
+                                    <div class="tags">
+                                        <p>PS5</p>
+                                        <P>PS4</P>
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                    <p class="txt-bold-sub">PREMIUM EDITION</p>
+                                    <p class="txt-item">EA SPORTS™ FIFA 23 Ultimate Edition PS4™ & PS5™</p>
+                                    <p class="txt-cost">$99.99</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+    
+                      
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-box">
+                               <div class="view-all-box txt-item">View All</div>
+                            </div>
+                        </div>
+        
+    
+                    </div>
+                    <div class="swiper-cus">
+                        <div class="swiper-button-prev swiper1-button-prev plus" ></div>
+                      <div class="swiper-button-next swiper1-button-next plus" ></div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="ms">
+            <div class="box-table-title">
+                <p class="txt-title">See more</p>
+            </div>
+            <div class="see-more">
+                <a href="#" class="see-more-box">
+                    <img src="./Assets/see-more/1.webp" alt="">
+                </a>
+
+                <a href="#" class="see-more-box">
+                    <img src="./Assets/see-more/2.webp" alt="">
+                </a>
+
+                <a href="#" class="see-more-box">
+                    <img src="./Assets/see-more/3.jpg" alt="">
+                </a>
+
+                <a href="#" class="see-more-box">
+                    <img src="./Assets/see-more/4.webp" alt="">
+                </a>
+
+                <a href="#" class="see-more-box">
+                    <img src="./Assets/see-more/5.webp" alt="">
+                </a>
+
+                <a href="#" class="see-more-box">
+                    <img src="./Assets/see-more/6.webp" alt="">
+                </a>
+
+                <a href="#" class="see-more-box">
+                    <img src="./Assets/see-more/7.webp" alt="">
+                </a>
+
+                <a href="#" class="see-more-box">
+                    <img src="./Assets/see-more/8.jpg" alt="">
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-top">
+                <i class="fab fa-playstation"></i>
+                
+                <div >
+                    <i class="fa-solid fa-globe"></i>
+                    <p class="txt-item">Country / Region: United States</p>
+                </div>
+            </div>
+            <div class="footer-table">
+                <div class="footer-col">
+                    <a class="txt-item">support</a>
+                    <a class="txt-item">Privacy Policy</a>
+                    <a class="txt-item">Do Not Share My Personal Information</a>
+                    <a class="txt-item">Website Terms of Use</a>
+                    <a class="txt-item">Sitemap</a>
+                    <a class="txt-item">PlayStation Studios</a>
+                    <a class="txt-item">Legal</a>
+                    <a class="txt-item">About SIE</a>
+                </div>
+                <div class="footer-col">
+                    <a class="txt-item">PSN Terms of Service</a>
+                    <a class="txt-item">PS Store Cancellation Policy</a>
+                    <a class="txt-item">Health Warnings</a>
+                    <a class="txt-item">About Ratings</a>
+                </div>
+                <div class="footer-col">
+                    <a class="txt-item">Facebook</a>
+                    <a class="txt-item">Twitter</a>
+                    <a class="txt-item">YouTube</a>
+                    <a class="txt-item">Instagram</a>
+                    <a class="txt-item">Android App</a>
+                    <a class="txt-item">iOS App</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="./js/swiper.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+
+</body>
+</html>
